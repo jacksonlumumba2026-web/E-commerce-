@@ -1,0 +1,41 @@
+body {
+    font-family: Arial;
+    background: #0f172a;
+    color: #e2e8f0;
+    text-align: center;
+}
+
+/* GRID */
+.products {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 20px;
+}
+
+/* CARD */
+.product {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+}
+
+/* BUTTON */
+button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background: #3b82f6;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
